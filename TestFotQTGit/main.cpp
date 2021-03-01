@@ -1,8 +1,12 @@
 #include <QCoreApplication>
-
+#include <iostream>
+using namespace std;
 int main(int argc, char *argv[])
 {
-    QCoreApplication a(argc, argv);
+    QCoreApplication app(argc, argv);
 
-    return a.exec();
+    int a  = 21;
+    cout << a << endl;
+
+    return app.exec();
 }
