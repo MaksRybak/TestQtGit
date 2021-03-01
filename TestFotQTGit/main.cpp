@@ -8,5 +8,7 @@ int main(int argc, char *argv[])
     int a  = 21;
     cout << a << endl;
 
+    int b = 21;
+
     return app.exec();
 }
